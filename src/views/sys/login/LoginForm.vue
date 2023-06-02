@@ -139,6 +139,7 @@
   const getShow = computed(() => unref(getLoginState) === LoginStateEnum.LOGIN);
 
   async function handleLogin() {
+    console.log('handleLogin');
     const data = await validForm();
     if (!data) return;
     try {
@@ -150,6 +151,7 @@
           captcha: data.inputCode,
           checkKey: randCodeData.checkKey,
           mode: 'none', //不要默认的错误提示
+          skipCaptcha: true,
         })
       );
       if (userInfo) {

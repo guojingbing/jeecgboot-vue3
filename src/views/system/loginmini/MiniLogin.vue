@@ -270,6 +270,7 @@
           captcha: formData.inputCode,
           checkKey: randCodeData.checkKey,
           mode: 'none', //不要默认的错误提示
+          skipCaptcha: true,
         })
       );
       if (userInfo) {
