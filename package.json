@@ -1,6 +1,6 @@
 {
   "name": "jeecgboot-vue3",
-  "version": "3.5.1",
+  "version": "3.5.2",
   "author": {
     "name": "jeecg",
     "email": "jeecgos@163.com",
@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "@jeecg/online": "3.4.4-RC",
+    "@qiaoqiaoyun/drag-free": "^1.0.2",
     "@iconify/iconify": "^2.2.1",
     "@ant-design/colors": "^6.0.0",
     "@ant-design/icons-vue": "^6.1.0",
@@ -171,7 +172,7 @@
     "vite-plugin-style-import": "^2.0.0",
     "vite-plugin-svg-icons": "^2.0.1",
     "@rys-fe/vite-plugin-theme": "^0.8.6",
-    "vite-plugin-vue-setup-extend": "^0.4.0",
+    "vite-plugin-vue-setup-extend-plus": "^0.1.0",
     "vite-plugin-windicss": "^1.8.7",
     "vue-eslint-parser": "^8.3.0",
     "vue-tsc": "^0.33.9"
